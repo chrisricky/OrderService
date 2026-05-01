@@ -20,7 +20,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Development purpose only
+// Development purpose
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
